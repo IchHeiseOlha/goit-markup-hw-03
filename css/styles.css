@@ -4,6 +4,27 @@ body{
     background-color: #FFFFFF;
 }
 
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
+
+ol, ul{
+    margin: 0;
+    padding-left: 0;
+}
+
+img{
+    display: block;
+}
+
+.container { 
+    max-width: 1440px;
+    padding-left: 0; 
+    padding-right: 0; 
+    margin-left:  0;
+    margin-right: 0; 
+}
+
 .h-hi{
     text-align: center;
 }
@@ -32,6 +53,7 @@ a{
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .link:hover, .link:focus, .link-a:hover, .link-a:focus{
@@ -62,6 +84,7 @@ color: #2E2F42;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
+    padding: 24px 0;
 }
 
 .hero-image{
