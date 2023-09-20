@@ -5,11 +5,13 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6, p{
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 ol, ul{
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
     padding-left: 0;
 }
 
@@ -17,16 +19,21 @@ img{
     display: block;
 }
 
-.container { 
-    max-width: 1440px;
-    padding-left: 0; 
-    padding-right: 0; 
-    margin-left:  0;
-    margin-right: 0; 
+.header{
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
-.h-hi{
-    text-align: center;
+.container { 
+    max-width: 1440px;
+    padding-left: 156px; 
+    padding-right: 156px; 
+    margin: 0 auto;
+    outline: 2px solid red;
+}
+
+.c_einz{
+    height: 600px;
 }
 
 .button{
@@ -90,6 +97,8 @@ color: #2E2F42;
 .hero-image{
     background-color: #2E2F42;
     color: #FFFFFF;
+    padding-top: 260px;
+    padding-bottom: 292px;
 }
 
 .h-hi{
@@ -97,6 +106,13 @@ color: #2E2F42;
     font-size: 56px;
     line-height: 1.07; /* 107.143% */
     letter-spacing: 1.12px;
+    text-align: center;
+    /*margin: 260px 472px 292px 472px;*/
+    
+}
+
+.h_zwei-s_einz{
+   
 }
 
 .h_zwei-s_zwei{
