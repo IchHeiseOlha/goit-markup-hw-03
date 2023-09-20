@@ -29,7 +29,7 @@ img{
     padding-left: 156px; 
     padding-right: 156px; 
     margin: 0 auto;
-    outline: 2px solid red;
+    /*outline: 2px solid red;*/
 }
 
 .c_einz{
@@ -45,6 +45,8 @@ img{
     color: #FFFFFF;
     border: none;
     background-color:#4D5AE5;
+    display: block;
+    margin: 0 auto;
 }
 
 .button:hover, .button:focus{
@@ -107,16 +109,22 @@ color: #2E2F42;
     line-height: 1.07; /* 107.143% */
     letter-spacing: 1.12px;
     text-align: center;
+    margin-bottom: 48px;
     /*margin: 260px 472px 292px 472px;*/
     
 }
 
-.h_zwei-s_einz{
-   
+.section1, .section_zwei, .section_drei{
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
-.h_zwei-s_zwei{
+.h_zwei-s_einz{
+}
+
+.h_zwei-s_zwei, .h_zwei-s_drei{
     text-align: center;
+    margin-bottom: 72px;
 }
 
 .h_drei-s_einz, .h_drei-s_zwei, .h_drei-s_drei{
@@ -125,6 +133,7 @@ color: #2E2F42;
     font-weight: 500;
     line-height: 1.2; /* 120% */
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .p-s_einz, .p-s_zwei, .p-s_drei{
@@ -134,12 +143,19 @@ color: #2E2F42;
     letter-spacing: 0.32px;
 }
 
+.p-s_zwei, .p-s_drei{
+    margin-bottom: 32px; 
+}
+
 .section_zwei{
     background-color: #F4F4FD;
+    /*padding-top: 120px;
+    padding-bottom: 120px;*/
 }
 
 .li-s_zwei{
     background-color: #FFFFFF;
+    text-align: center;
 }
 
 .h_zwei-s_drei, .h_zwei-s_zwei{
@@ -150,8 +166,16 @@ color: #2E2F42;
     text-transform: capitalize;
 }
 
+.team-kard-img, .projekt-kart-img{
+    margin-bottom: 32px;
+}
+
+
+
 .footer{
     background-color: #2E2F42;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .logo-fut{
     font-family: "Raleway", sans-serif;
@@ -170,4 +194,6 @@ color: #2E2F42;
     font-size: 16px;
     line-height: 1.5; /* 150% */
     letter-spacing: 0.32px;
+    max-width: 264px;
+    margin-top: 18px;
 }
