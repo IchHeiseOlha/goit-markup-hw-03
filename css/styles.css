@@ -80,9 +80,9 @@ ul{
     list-style-type: none;
 }
 
-.logo{
+/*.logo{
     margin-right: 76px;
-}
+}*/
 
 .logo-hed{
     display: flex;
@@ -93,10 +93,10 @@ ul{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 .logo-studio{
 color: #2E2F42;
-margin-right: 76px;
 
 }
 
