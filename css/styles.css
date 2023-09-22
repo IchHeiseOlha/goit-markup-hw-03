@@ -200,11 +200,19 @@ margin-right: 76px;
     margin-bottom: 8px;
 }
 
+.h_drei-s_zwei{
+    margin-bottom: 8px;
+}
+
 .p-s_einz, .p-s_zwei, .p-s_drei{
     color: #434455;
     font-size: 16px;
     line-height: 1.5; /* 150% */
     letter-spacing: 0.32px;
+}
+
+.p-s_zwei{
+    text-align: center;
 }
 
 .p-s_zwei, .p-s_drei{
