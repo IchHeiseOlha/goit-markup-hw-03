@@ -89,7 +89,7 @@ ul{
 }
 .logo-studio{
 color: #2E2F42;
-margin-right: 76px;
+
 }
 
 .header-menu{
@@ -102,6 +102,7 @@ margin-right: 76px;
     flex-grow: 1;
     justify-content: space-between;
     align-items: center;
+    margin-right: 76px;
 }
 
 .header-container{
@@ -251,6 +252,8 @@ margin-right: 76px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .logo-s-fut{
     color: #F4F4FD;
