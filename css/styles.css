@@ -22,12 +22,15 @@ img{
 .header{
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .container { 
-    max-width: 1440px;
+    width: 1158px; 
+   /* max-width: 1440px;
     padding-left: 156px; 
-    padding-right: 156px; 
+    padding-right: 156px; */
+    padding: 0 15px;
     margin: 0 auto;
     /*outline: 2px solid red;*/
 }
@@ -86,6 +89,7 @@ ul{
 }
 .logo-studio{
 color: #2E2F42;
+margin-right: 76px;
 }
 
 .header-menu{
@@ -97,6 +101,7 @@ color: #2E2F42;
     display: flex;
     flex-grow: 1;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header-container{
