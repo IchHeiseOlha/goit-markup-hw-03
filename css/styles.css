@@ -179,6 +179,10 @@ margin-right: 76px;
     width: calc((100% - 24px * 3) / 4);
 }
 
+.team-list-text{
+    padding: 32px 0;
+}
+
 .h_zwei-s_einz{
 }
 
