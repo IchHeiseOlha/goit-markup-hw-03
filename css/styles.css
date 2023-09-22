@@ -50,6 +50,8 @@ img{
     background-color:#4D5AE5;
     display: block;
     margin: 0 auto;
+    min-width: 169px;
+    height: 56px;
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
@@ -89,6 +91,7 @@ ul{
 }
 .logo-studio{
 color: #2E2F42;
+margin-right: 76px;
 
 }
 
@@ -130,8 +133,9 @@ color: #2E2F42;
 .hero-image{
     background-color: #2E2F42;
     color: #FFFFFF;
-    padding-top: 260px;
-    padding-bottom: 292px;
+    /*padding-top: 260px;
+    padding-bottom: 292px;*/
+    padding: 188px 0;
 }
 
 .h-hi{
