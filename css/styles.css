@@ -84,6 +84,7 @@ ul{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 .logo-studio{
 color: #2E2F42;
@@ -97,7 +98,7 @@ color: #2E2F42;
 
 .header-navigation{
     display: flex;
-    flex-grow: 1;
+    /*flex-grow: 1;*/
     justify-content: space-between;
     align-items: center;
     margin-top: 24px;
@@ -114,11 +115,13 @@ color: #2E2F42;
     font-style: normal;
     margin-top: 24px;
     margin-bottom: 24px;
+    
 }
 
 .adress-list{
     display: flex;
     gap: 40px;
+    /*align: right;*/
 }
 
 .link-a{
@@ -172,7 +175,7 @@ color: #2E2F42;
     width: calc((100% - 24px * 3) / 4);
 }
 
-.team-list-text{
+.iteam-list-text{
     padding: 32px 0;
 }
 
