@@ -20,8 +20,6 @@ img{
 }
 
 .header{
-    /*padding-top: 24px;
-    padding-bottom: 24px;*/
     border-bottom: 1px solid #e7e9fc;
 }
 
@@ -76,9 +74,6 @@ ul{
     list-style-type: none;
 }
 
-/*.logo{
-    margin-right: 76px;
-}*/
 
 .logo-hed{
     display: flex;
@@ -89,7 +84,6 @@ ul{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    /*margin-right: 76px;*/
 }
 .logo-studio{
 color: #2E2F42;
@@ -137,23 +131,18 @@ color: #2E2F42;
 .hero-image{
     background-color: #2E2F42;
     color: #FFFFFF;
-    /*padding-top: 260px;
-    padding-bottom: 292px;*/
     padding: 188px 0;
 }
 
 .h-hi{
     color: #FFFFFF;
     font-size: 56px;
-    line-height: 1.07; /* 107.143% */
+    line-height: 1.07;
     letter-spacing: 1.12px;
     text-align: center;
     margin: 0 auto;
     margin-bottom: 48px;
-
     max-width: 496px;
-    /*margin: 260px 472px 292px 472px;*/
-    
 }
 
 .visually-hidden {
@@ -199,7 +188,7 @@ color: #2E2F42;
     color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.2; /* 120% */
+    line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
 }
@@ -219,14 +208,12 @@ color: #2E2F42;
     text-align: center;
 }
 
-.p-s_zwei, /*.p-s_drei*/{
+.p-s_zwei{
     margin-bottom: 32px; 
 }
 
 .section_zwei{
     background-color: #F4F4FD;
-    /*padding-top: 120px;
-    padding-bottom: 120px;*/
 }
 
 .team-list{
@@ -252,7 +239,7 @@ color: #2E2F42;
 .h_zwei-s_drei, .h_zwei-s_zwei{
     color: #2e2f42;
     font-size: 36px;
-    line-height: 1.11; /* 111.111% */
+    line-height: 1.11; 
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
@@ -268,15 +255,11 @@ color: #2E2F42;
     width: calc((100% - 24px * 2) / 3); 
 }
 
-/*.h_drei-s_drei, .p-s_drei{
-    padding: 0px 16px;
-}*/
 
 .h_drei-s_drei{
     margin-bottom: 8px
 }
 
-/*.team-kard-img, */
 .projekt-kart-img{
     margin-bottom: 32px;
 }
@@ -303,7 +286,6 @@ color: #2E2F42;
     text-transform: uppercase;
     color: #4d5ae5;
     display: inline-block;
-    /*margin-bottom: 16px;*/
 }
 .logo-s-fut{
     color: #F4F4FD;
@@ -311,7 +293,7 @@ color: #2E2F42;
 .p-foot{
     color: #F4F4FD;
     font-size: 16px;
-    line-height: 1.5; /* 150% */
+    line-height: 1.5;
     letter-spacing: 0.32px;
     max-width: 264px;
     margin-top: 18px;
