@@ -20,19 +20,15 @@ img{
 }
 
 .header{
-    padding-top: 24px;
-    padding-bottom: 24px;
+    /*padding-top: 24px;
+    padding-bottom: 24px;*/
     border-bottom: 1px solid #e7e9fc;
 }
 
 .container { 
     width: 1158px; 
-   /* max-width: 1440px;
-    padding-left: 156px; 
-    padding-right: 156px; */
     padding: 0 15px;
     margin: 0 auto;
-    /*outline: 2px solid red;*/
 }
 
 .c_einz{
@@ -93,7 +89,7 @@ ul{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-right: 76px;
+    /*margin-right: 76px;*/
 }
 .logo-studio{
 color: #2E2F42;
@@ -110,6 +106,8 @@ color: #2E2F42;
     flex-grow: 1;
     justify-content: space-between;
     align-items: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
     margin-right: 76px;
 }
 
@@ -119,8 +117,9 @@ color: #2E2F42;
 }
 
 .adress{
-    
-    font-style: normal
+    font-style: normal;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
 
 .adress-list{
@@ -220,7 +219,7 @@ color: #2E2F42;
     text-align: center;
 }
 
-.p-s_zwei, .p-s_drei{
+.p-s_zwei, /*.p-s_drei*/{
     margin-bottom: 32px; 
 }
 
@@ -235,6 +234,11 @@ color: #2E2F42;
     flex-wrap: wrap;
     gap: 24px;
     
+}
+
+.team-list-text{
+    margin: 32px 0;
+    padding: 0 16px;
 }
 
 .li-s_zwei{
@@ -264,15 +268,16 @@ color: #2E2F42;
     width: calc((100% - 24px * 2) / 3); 
 }
 
-.h_drei-s_drei, .p-s_drei{
+/*.h_drei-s_drei, .p-s_drei{
     padding: 0px 16px;
-}
+}*/
 
 .h_drei-s_drei{
     margin-bottom: 8px
 }
 
-.team-kard-img, .projekt-kart-img{
+/*.team-kard-img, */
+.projekt-kart-img{
     margin-bottom: 32px;
 }
 
@@ -298,7 +303,7 @@ color: #2E2F42;
     text-transform: uppercase;
     color: #4d5ae5;
     display: inline-block;
-    margin-bottom: 16px;
+    /*margin-bottom: 16px;*/
 }
 .logo-s-fut{
     color: #F4F4FD;
